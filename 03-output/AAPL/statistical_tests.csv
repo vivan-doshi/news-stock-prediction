@@ -1,0 +1,6 @@
+Test,Error,N,Mean,Std,SE,t_statistic,p_value,Significant,Null_Hypothesis,Alternative
+One-Sample t-test,Insufficient data for test,,,,,,,,,
+One-Sample t-test,,1322.0,-3.946414876071494e-05,0.010329001094279573,0.0002840812667463471,-0.13891851867850205,0.8895357112422551,False,Mean = 0.0,Mean ≠ 0
+Two-Sample t-test,Insufficient data for test,,,,,,,,,
+F-test,Insufficient data for test,,,,,,,,,
+Regression Analysis - Insufficient news variation,Insufficient data for test,,,,,,,,,

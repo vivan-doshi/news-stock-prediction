@@ -1,0 +1,2 @@
+total_days,news_days,non_news_days,mean_ar_news,mean_ar_non_news,std_ar_news,std_ar_non_news,avg_r_squared,significant_tests,total_tests
+1422,0,1422,,-3.946414876071478e-05,,0.010329001094279573,0.7144556999506599,0,5

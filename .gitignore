@@ -1,0 +1,70 @@
+# API Keys and Secrets
+.env
+*.key
+secrets.json
+config/secrets.py
+
+# Data files
+01-data/*.csv
+01-data/*.json
+01-data/*.xlsx
+01-data/*.parquet
+
+# Output files
+03-output/*.csv
+03-output/*.png
+03-output/*.jpg
+03-output/*.pdf
+03-output/*.html
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
