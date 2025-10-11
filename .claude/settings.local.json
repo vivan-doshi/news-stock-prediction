@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_finnhub_news_availability.py:*)",
+      "Bash(python test_finnhub_extended.py:*)",
+      "Bash(python test_marketaux_2024.py:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
