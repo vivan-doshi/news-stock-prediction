@@ -13,7 +13,8 @@
       "Bash(conda:*)",
       "Bash(/Users/vivan/miniconda3/bin/conda env list)",
       "Bash(/Users/vivan/miniconda3/bin/python:*)",
-      "Bash(../dso-585-datadriven/bin/python:*)"
+      "Bash(../dso-585-datadriven/bin/python:*)",
+      "Bash(tree:*)"
     ],
     "deny": [],
     "ask": []

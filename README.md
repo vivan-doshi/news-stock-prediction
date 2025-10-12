@@ -67,20 +67,20 @@ news-stock-prediction/
 │   └── README.md                 # Code documentation
 │
 ├── 📂 03-output/                  # Results and visualizations
-│   ├── AAPL_improved_study/      # AAPL analysis results
-│   ├── TSLA_improved_study/      # TSLA analysis results
-│   ├── presentation/             # Presentation materials
-│   │   ├── overview_comparison.png
-│   │   ├── AAPL_detailed_analysis.png
-│   │   ├── TSLA_detailed_analysis.png
-│   │   ├── news_characteristics.png
-│   │   └── DETAILED_PRESENTATION_DOCUMENT.md
+│   ├── results/                  # Main analysis results
+│   │   ├── AAPL/
+│   │   │   └── main_analysis/   # Final AAPL results
+│   │   └── TSLA/
+│   │       └── main_analysis/   # Final TSLA results
+│   ├── figures/                  # All visualizations
+│   │   ├── presentation/        # Presentation materials
+│   │   │   ├── overview_comparison.png
+│   │   │   ├── AAPL_detailed_analysis.png
+│   │   │   ├── TSLA_detailed_analysis.png
+│   │   │   └── DETAILED_PRESENTATION_DOCUMENT.md
+│   │   └── *.png                # Other analysis figures
+│   ├── archive/                  # Older analysis versions
 │   └── README.md                 # Results documentation
-│
-├── 📂 docs/                       # Additional documentation
-│   ├── METHODOLOGY.md            # Detailed methodology
-│   ├── DATA_DESCRIPTION.md       # Data documentation
-│   └── RESULTS_INTERPRETATION.md # How to interpret results
 │
 ├── 📄 README.md                   # This file
 ├── 📄 SETUP_AND_RUN.md           # Setup instructions
@@ -106,7 +106,7 @@ news-stock-prediction/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/news-stock-prediction.git
+git clone https://github.com/vivan/news-stock-prediction.git
 cd news-stock-prediction
 
 # 2. Create virtual environment
@@ -260,10 +260,10 @@ Difference:       +0.0199% (negligible)
 
 ## 🎨 Visualizations
 
-High-resolution (300 DPI) publication-quality visualizations available in [`03-output/presentation/`](03-output/presentation/):
+High-resolution (300 DPI) publication-quality visualizations available in [`03-output/figures/presentation/`](03-output/figures/presentation/):
 
 ### 1. Overview Comparison
-![Overview](03-output/presentation/overview_comparison.png)
+![Overview](03-output/figures/presentation/overview_comparison.png)
 *Side-by-side comparison of AAPL vs TSLA across 6 key metrics*
 
 ### 2. Detailed Analysis Dashboards
@@ -271,7 +271,6 @@ High-resolution (300 DPI) publication-quality visualizations available in [`03-o
 - **TSLA**: Distribution analysis, time series, factor loadings, statistical tests
 
 ### 3. News Characteristics
-![News](03-output/presentation/news_characteristics.png)
 *Sentiment distribution, content length, data coverage*
 
 ---
@@ -318,7 +317,7 @@ High-resolution (300 DPI) publication-quality visualizations available in [`03-o
 ## 📚 Documentation
 
 - **[SETUP_AND_RUN.md](SETUP_AND_RUN.md)**: Detailed setup and execution guide
-- **[Presentation Document](03-output/presentation/DETAILED_PRESENTATION_DOCUMENT.md)**: 50+ page comprehensive analysis report
+- **[Presentation Document](03-output/figures/presentation/DETAILED_PRESENTATION_DOCUMENT.md)**: 50+ page comprehensive analysis report
 - **[01-data/README.md](01-data/README.md)**: Data description and sources
 - **[02-scripts/README.md](02-scripts/README.md)**: Code documentation
 - **[03-output/README.md](03-output/README.md)**: Results interpretation guide
@@ -390,11 +389,11 @@ If you use this research or code, please cite:
 ```bibtex
 @misc{news_stock_prediction_2024,
   title={News Impact on Stock Returns: An Event Study Analysis},
-  author={[Your Name]},
+  author={Vivan},
   year={2024},
   institution={University of Southern California},
   course={DSO 585 - Data-Driven Consulting},
-  url={https://github.com/yourusername/news-stock-prediction}
+  url={https://github.com/vivan/news-stock-prediction}
 }
 ```
 
@@ -407,7 +406,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 Vivan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -455,10 +454,12 @@ isort 02-scripts/
 ## 👥 Authors & Acknowledgments
 
 ### Authors
-- **[Your Name]** - *Principal Investigator* - [GitHub](https://github.com/yourusername)
+- **Vivan** - *Principal Investigator* - [GitHub](https://github.com/vivan)
+- **Rohit** - *Data Engineer* 
+- **Jui** - *Project Manager*
 
 ### Acknowledgments
-- **Professor [Name]** - Course instructor (DSO 585, USC Marshall)
+- **Dr Austin Pollok** - Course instructor (DSO 585, USC Marshall)
 - **Kenneth French** - Fama-French factor data
 - **EODHD** - Financial news data API
 - **Yahoo Finance** - Stock price data
@@ -474,9 +475,9 @@ isort 02-scripts/
 
 ## 📞 Contact
 
-- **Email**: your.email@example.com
+- **Email**: vkd09.vd@gmail.com
 - **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- **Project Link**: [https://github.com/yourusername/news-stock-prediction](https://github.com/yourusername/news-stock-prediction)
+- **Project Link**: [https://github.com/vivan/news-stock-prediction](https://github.com/vivan/news-stock-prediction)
 
 ---
 
@@ -484,7 +485,7 @@ isort 02-scripts/
 
 If you find this project useful, please consider giving it a ⭐ on GitHub!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/news-stock-prediction&type=Date)](https://star-history.com/#yourusername/news-stock-prediction&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=vivan/news-stock-prediction&type=Date)](https://star-history.com/#vivan/news-stock-prediction&Date)
 
 ---
 
