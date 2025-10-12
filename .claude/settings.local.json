@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_finnhub_news_availability.py:*)",
+      "Bash(python test_finnhub_extended.py:*)",
+      "Bash(python test_marketaux_2024.py:*)",
+      "Bash(source:*)",
+      "Bash(python:*)",
+      "Bash(cat:*)",
+      "Bash(timeout 300 python run_eodhd_analysis.py)",
+      "Bash(tee:*)",
+      "Bash(python3:*)",
+      "Bash(conda:*)",
+      "Bash(/Users/vivan/miniconda3/bin/conda env list)",
+      "Bash(/Users/vivan/miniconda3/bin/python:*)",
+      "Bash(../dso-585-datadriven/bin/python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

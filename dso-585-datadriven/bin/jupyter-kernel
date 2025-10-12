@@ -1,0 +1,9 @@
+#!/bin/sh
+'''exec' "/Users/vivan/Desktop/Central File Manager/02 USC/04 Semester 3/03 DSO 585 - Data Driven Consulting/01 Project/news-stock-prediction/dso-585-datadriven/bin/python" "$0" "$@"
+' '''
+import sys
+from jupyter_client.kernelapp import main
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(main())
