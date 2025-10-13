@@ -1,0 +1,332 @@
+{
+  "volume_frequency": {
+    "total_articles": 395871,
+    "total_stocks": 50,
+    "date_range_days": 2472,
+    "articles_per_stock": {
+      "TSLA": 49378,
+      "AMZN": 33195,
+      "MSFT": 25302,
+      "AAPL": 25275,
+      "GOOGL": 24708,
+      "NVDA": 24123,
+      "PFE": 12674,
+      "DIS": 12426,
+      "NFLX": 11527,
+      "BA": 10719,
+      "WMT": 10579,
+      "META": 8929,
+      "JPM": 8465,
+      "XOM": 8186,
+      "JNJ": 7931,
+      "CVX": 7842,
+      "COST": 6983,
+      "GS": 6351,
+      "BAC": 5996,
+      "LLY": 5343,
+      "NKE": 5237,
+      "KO": 5039,
+      "MCD": 4924,
+      "AVGO": 4884,
+      "HD": 4570,
+      "MS": 4267,
+      "WFC": 4244,
+      "PEP": 4183,
+      "ORCL": 4008,
+      "UNH": 3956,
+      "CMCSA": 3888,
+      "PG": 3865,
+      "ABBV": 3808,
+      "GE": 3691,
+      "UPS": 3287,
+      "NEE": 3163,
+      "CAT": 2921,
+      "COP": 2675,
+      "DUK": 2419,
+      "SO": 2306,
+      "HON": 1949,
+      "PLD": 1609,
+      "EOG": 1498,
+      "AMT": 1447,
+      "SLB": 1316,
+      "CCI": 1161,
+      "SPG": 1115,
+      "D": 1062,
+      "EQIX": 884,
+      "AEP": 563
+    },
+    "articles_per_sector": {
+      "Consumer Discretionary": 97304,
+      "Technology": 83592,
+      "Communication Services": 61478,
+      "Healthcare": 33712,
+      "Consumer Staples": 30649,
+      "Finance": 29323,
+      "Industrials": 22567,
+      "Energy": 21517,
+      "Utilities": 9513,
+      "Real Estate": 6216
+    },
+    "avg_articles_per_day": 173.4754601226994,
+    "median_articles_per_day": 93.0,
+    "max_articles_in_day": 857,
+    "days_with_news": 2282
+  },
+  "content_quality": {
+    "missing_values": {
+      "ticker": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "date": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "title": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "content": {
+        "count": 72,
+        "percentage": 0.01818774297687883
+      },
+      "link": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "symbols": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "tags": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "sentiment_polarity": {
+        "count": 151,
+        "percentage": 0.03814373874317644
+      },
+      "sentiment_neg": {
+        "count": 151,
+        "percentage": 0.03814373874317644
+      },
+      "sentiment_neu": {
+        "count": 151,
+        "percentage": 0.03814373874317644
+      },
+      "sentiment_pos": {
+        "count": 151,
+        "percentage": 0.03814373874317644
+      },
+      "sector": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "company_name": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "date_only": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "year": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "month": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "day_of_week": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "hour": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    },
+    "title_length_mean": 66.84390622197635,
+    "title_length_median": 63.0,
+    "title_words_mean": 10.947038302881495,
+    "title_words_median": 10.0,
+    "content_length_mean": 3578.8679367773843,
+    "content_length_median": 2436.0,
+    "content_words_mean": 565.1759361003964,
+    "content_words_median": 382.0,
+    "empty_content_count": 1329,
+    "empty_content_pct": 0.3357154224482218,
+    "duplicate_titles": 199702,
+    "duplicate_titles_pct": 50.446231221786896
+  },
+  "event_categories": {
+    "category_counts": {
+      "Earnings": 45198,
+      "Product Launch": 12134,
+      "Executive Changes": 18547,
+      "M&A": 68471,
+      "Regulatory/Legal": 15317,
+      "Market Performance": 178155,
+      "Operations": 8390,
+      "Technology/Innovation": 72139,
+      "Analyst Ratings": 15732,
+      "Dividends": 15967
+    },
+    "multi_category_count": 128965,
+    "uncategorized_count": 105257
+  },
+  "competitor_crossstock": {
+    "multi_ticker_count": 279859,
+    "multi_ticker_pct": 70.69449391342128,
+    "top_co_mentions": {
+      "GOOG+GOOGL": 44375,
+      "PK+PL": 29168,
+      "AAPL+AMZN": 23979,
+      "GOOGL+MSFT": 23831,
+      "AMZN+GOOGL": 23277,
+      "AAPL+MSFT": 22475,
+      "AAPL+GOOGL": 21915,
+      "AMZN+MSFT": 21637,
+      "AMZN+GOOG": 19450,
+      "PD+PK": 19333,
+      "GOOG+MSFT": 19244,
+      "PA+PK": 18546,
+      "PC+PD": 18251,
+      "BAC+PL": 17686,
+      "PE+PL": 17658
+    }
+  },
+  "sentiment": {
+    "sentiment_polarity_mean": 0.5757494364702315,
+    "sentiment_polarity_median": 0.904,
+    "sentiment_polarity_std": 0.5566076809426042,
+    "sentiment_neg_mean": 0.03658169665419995,
+    "sentiment_neg_median": 0.025,
+    "sentiment_neg_std": 0.04325680872431922,
+    "sentiment_neu_mean": 0.85770122814111,
+    "sentiment_neu_median": 0.86,
+    "sentiment_neu_std": 0.07405531357232993,
+    "sentiment_pos_mean": 0.10553636662286466,
+    "sentiment_pos_median": 0.102,
+    "sentiment_pos_std": 0.06769646004904094,
+    "sentiment_distribution": {
+      "Very Positive": 262869,
+      "Positive": 44447,
+      "Neutral": 37108,
+      "Very Negative": 27564,
+      "Negative": 23732
+    },
+    "sector_sentiment": {
+      "Real Estate": 0.8044165057915057,
+      "Utilities": 0.7803679562657695,
+      "Consumer Staples": 0.6627443766119291,
+      "Energy": 0.6363067305010691,
+      "Finance": 0.582550551062886,
+      "Healthcare": 0.5822414406930516,
+      "Technology": 0.5787816236400847,
+      "Industrials": 0.5606179481497895,
+      "Communication Services": 0.5329721589429836,
+      "Consumer Discretionary": 0.5239663479333744
+    }
+  },
+  "sources": {
+    "unique_sources": 32,
+    "top_sources": {
+      "finance.yahoo.com": 362406,
+      "investorplace.com": 10321,
+      "fool.com": 7668,
+      "globenewswire.com": 3542,
+      "uk.finance.yahoo.com": 3518,
+      "ca.finance.yahoo.com": 3102,
+      "reuters.com": 2408,
+      "investing.com": 584,
+      "nasdaq.com": 558,
+      "seekingalpha.com": 483,
+      "yahoo.com": 435,
+      "sg.finance.yahoo.com": 200,
+      "in.finance.yahoo.com": 167,
+      "barchart.com": 151,
+      "cnbc.com": 103,
+      "chartmill.com": 83,
+      "ca.news.yahoo.com": 24,
+      "benzinga.com": 21,
+      "news.yahoo.com": 21,
+      "uk.news.yahoo.com": 20
+    },
+    "top_5_concentration": 97.87405493203593,
+    "top_10_concentration": 99.67640973953637
+  },
+  "false_positives_negatives": {
+    "ticker_not_in_title": 330056,
+    "ticker_not_in_title_pct": 83.37463466634333,
+    "neutral_generic": 12583,
+    "neutral_generic_pct": 3.1785606927509216,
+    "many_tickers": 219804,
+    "many_tickers_pct": 55.52414801791493,
+    "very_short_content": 91050,
+    "very_short_pct": 22.999916639511355,
+    "high_fp_risk": 241367,
+    "high_fp_risk_pct": 60.97112443194879
+  },
+  "temporal_patterns": {
+    "yearly_trend": {
+      "2019": 955,
+      "2020": 3742,
+      "2021": 87541,
+      "2022": 108022,
+      "2023": 109237,
+      "2024": 73600,
+      "2025": 12774
+    },
+    "monthly_pattern": {
+      "1": 31896,
+      "2": 28884,
+      "3": 30568,
+      "4": 35844,
+      "5": 33114,
+      "6": 37457,
+      "7": 38436,
+      "8": 32908,
+      "9": 32786,
+      "10": 36867,
+      "11": 28709,
+      "12": 28402
+    },
+    "day_of_week_pattern": {
+      "Monday": 66433,
+      "Tuesday": 77087,
+      "Wednesday": 74773,
+      "Thursday": 74244,
+      "Friday": 68135,
+      "Saturday": 17550,
+      "Sunday": 17649
+    },
+    "hourly_pattern": {
+      "0": 23253,
+      "1": 3706,
+      "2": 2850,
+      "3": 2269,
+      "4": 3446,
+      "5": 3912,
+      "6": 4232,
+      "7": 5281,
+      "8": 6360,
+      "9": 13580,
+      "10": 23881,
+      "11": 25830,
+      "12": 28284,
+      "13": 35602,
+      "14": 35751,
+      "15": 29883,
+      "16": 26450,
+      "17": 20181,
+      "18": 19375,
+      "19": 18544,
+      "20": 21317,
+      "21": 20516,
+      "22": 13985,
+      "23": 7383
+    }
+  }
+}
