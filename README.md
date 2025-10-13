@@ -668,8 +668,9 @@ isort 02-scripts/
 ## 📞 Contact
 
 - **Email**: vkd09.vd@gmail.com
-- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/vivan-doshi)
-- **Project Link**: [https://github.com/vivan/news-stock-prediction](https://github.com/vivan/news-stock-prediction)
+- **LinkedIn**: [My LinkedIn](https://www.linkedin.com/in/vivan-doshi)
+- **Github Profile**: [Github Profile](https://www.github.com/vivan-doshi)
+- **Medium Page**: [My thoughts and Projects](https://medium.com/@vivandoshi)
 
 ---
 
