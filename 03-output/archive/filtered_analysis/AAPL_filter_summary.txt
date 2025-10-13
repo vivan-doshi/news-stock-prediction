@@ -1,0 +1,50 @@
+================================================================================
+NEWS FILTERING SUMMARY FOR AAPL
+================================================================================
+
+ORIGINAL DATASET:
+  Total articles: 25,275
+  Date range: 2020-03-23 to 2024-01-31
+  Days with news: 1,231
+  Articles per day: 20.5 avg
+
+FILTERING CRITERIA:
+  1. High-volume days (top 25% by article count)
+  2. Extreme sentiment (|polarity| > 0.5)
+  3. Event keywords (earnings, product, executive, etc.)
+  Filter passes if ANY condition is met
+
+FILTERED DATASET:
+  Total articles: 24,620 (97.4% of original)
+  Unique dates: 1,229
+  Articles per day: 20.0 avg
+
+FILTER BREAKDOWN:
+  High-volume: 13,233 articles
+  Extreme sentiment: 17,102 articles
+  Event keywords: 23,248 articles
+
+CATEGORY DISTRIBUTION (Filtered Data):
+  Earnings       : 11,707 ( 47.6%)
+  Market         :  4,581 ( 18.6%)
+  Product        :  2,773 ( 11.3%)
+  Executive      :  2,409 (  9.8%)
+  General        :  1,372 (  5.6%)
+  Regulatory     :  1,177 (  4.8%)
+  Partnership    :    601 (  2.4%)
+
+SENTIMENT DISTRIBUTION (Filtered Data):
+  Mean polarity: 0.491
+  Std polarity: 0.587
+  Very negative (<-0.5): 2,231
+  Negative (-0.5 to -0.1): 1,783
+  Neutral (-0.1 to 0.1): 2,694
+  Positive (0.1 to 0.5): 3,027
+  Very positive (>0.5): 14,871
+
+================================================================================
+Files created:
+  - AAPL_news_categorized.csv (full dataset with categories)
+  - AAPL_news_filtered.csv (filtered dataset)
+  - AAPL_event_dates.csv (for event study)
+================================================================================

@@ -1,0 +1,32 @@
+================================================================================
+EVENT STUDY RESULTS - FILTERED NEWS DATA
+================================================================================
+
+
+TSLA EVENT STUDY:
+--------------------------------------------------------------------------------
+  Event Days: 1,271
+  Non-Event Days: 151
+  Mean AR (Events): nan%
+  Mean AR (Non-Events): nan%
+  Difference: nan%
+  Significant Tests: 0/5
+  Model R²: nan
+  ❌ RESULT: Limited evidence of event impact
+
+
+AAPL EVENT STUDY:
+--------------------------------------------------------------------------------
+  Event Days: 883
+  Non-Event Days: 142
+  Mean AR (Events): nan%
+  Mean AR (Non-Events): nan%
+  Difference: nan%
+  Significant Tests: 0/5
+  Model R²: nan
+  ❌ RESULT: Limited evidence of event impact
+
+================================================================================
+NOTES:
+  *** p < 0.01, ** p < 0.05, * p < 0.10
+================================================================================

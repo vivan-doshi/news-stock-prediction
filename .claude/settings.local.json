@@ -17,7 +17,18 @@
       "Bash(tree:*)",
       "Bash(cd:*)",
       "Bash(/Users/vivan/miniconda3/envs/DSO530/bin/python:*)",
-      "Read(//Users/vivan/Desktop/**)"
+      "Read(//Users/vivan/Desktop/**)",
+      "Bash(awk:*)",
+      "Bash(xargs:*)",
+      "Bash(pip install:*)",
+      "Bash(timeout 300 python 02-scripts/19_comprehensive_17stock_experiment.py)",
+      "Bash(for stock in AAPL META NVDA JPM AMT NEE GOOGL PFE JNJ GS MSFT AMZN PG WMT BA XOM)",
+      "Bash(do echo \"=== $stock ===\")",
+      "Bash(done)",
+      "Bash(for stock in META NVDA JPM GOOGL MSFT AMZN)",
+      "Bash(timeout:*)",
+      "Bash(/Users/vivan/miniconda3/envs/DSO530/bin/pip install yfinance -q)",
+      "Bash(/Users/vivan/miniconda3/envs/DSO530/bin/pip install python-dotenv requests -q)"
     ],
     "deny": [],
     "ask": []

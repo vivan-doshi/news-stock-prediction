@@ -1,0 +1,20 @@
+
+FINAL EXPERIMENTAL DESIGN
+=========================
+Date: 2025-10-12 15:57:35
+Ticker: TSLA
+
+PARAMETERS:
+- Event Window: (0, 0) (same-day impact only)
+- Polarity Threshold: |polarity| > 0.95 (extreme sentiment)
+- Stratification: Binary (Positive vs Negative sentiment)
+- Beta Estimation: Full sample (events are sparse enough)
+
+HYPOTHESIS:
+H0: Extreme sentiment news (>95th percentile) has no impact on same-day abnormal returns
+H1: Extreme positive (negative) sentiment → positive (negative) abnormal returns
+
+IMPROVEMENTS OVER BASELINE:
+- Baseline: |polarity| > 0.5 → 33 AAPL events (0.13% of articles)
+- Experiment: |polarity| > 0.95 → ~150-200 events (4-6x more data)
+- Focuses on genuinely exceptional news while maintaining statistical validity

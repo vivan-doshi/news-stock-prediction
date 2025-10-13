@@ -10,18 +10,23 @@ config/secrets.py
 01-data/*.xlsx
 01-data/*.parquet
 
-# Output files
-03-output/*.csv
-03-output/*.png
-03-output/*.jpg
-03-output/*.pdf
+# Output files - Large data files only (>100MB)
+# Note: PNGs and CSVs under 100MB are tracked for analysis results
+03-output/archive/filtered_analysis/TSLA_news_filtered.csv
+03-output/archive/filtered_analysis/TSLA_news_categorized.csv
+
+# Exclude large filtered CSV files (>10MB) - can regenerate from scripts
+03-output/news_filtering_comparison/*_filtered.csv
+
+# Keep small files (event dates, summaries, visualizations) - these are important outputs
+# PNGs are all under 2MB and should be tracked
+# Event date CSVs are all under 100KB and should be tracked
+# Summary CSVs are small and should be tracked
+
+# Other output formats to ignore
 03-output/*.html
-03-output/filtered_analysis/*.csv
-03-output/filtered_analysis/*.txt
-03-output/filtered_analysis/AAPL_news_filtered.csv
-03-output/filtered_analysis/TSLA_news_filtered.csv
-03-output/filtered_analysis/AAPL_event_dates.csv
-03-output/filtered_analysis/TSLA_event_dates.csv
+03-output/*.txt
+03-output/*.log
 
 # Python
 __pycache__/
@@ -96,5 +101,6 @@ logs/
 *.pt
 *.pth
 
-03-output/
-*.csv
+# Note: Output directory is now partially tracked
+# Small analysis outputs (PNGs, summary CSVs, event dates) are tracked
+# Large filtered CSVs are in gitignore above

@@ -1,0 +1,20 @@
+
+EXPERIMENTAL DESIGN DOCUMENT - V3 (OPTIMIZED)
+==============================================
+Date: 2025-10-12 15:55:24
+Ticker: TSLA_conservative
+
+EXPERIMENTAL PARAMETERS:
+- Event Window: (-1, 1) days
+- Polarity Threshold: |polarity| > 0.7
+- Stratification: 3 sentiment categories (terciles)
+- Beta Estimation: 126-day rolling window, 100-day minimum
+
+IMPROVEMENTS OVER V2:
+- Reduced event window to prevent data starvation
+- Increased polarity threshold for stronger signals
+- Simplified stratification for robustness
+
+HYPOTHESIS:
+H0: News sentiment has no impact on abnormal returns
+H1: Stronger sentiment magnitude → larger absolute abnormal returns

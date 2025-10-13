@@ -1,0 +1,19 @@
+
+EXPERIMENTAL DESIGN DOCUMENT
+=============================
+Date: 2025-10-12 15:49:08
+Ticker: TSLA
+
+EXPERIMENTAL PARAMETERS:
+- Event Window: (-5, 1) days (baseline: (0, 0))
+- Polarity Threshold: |polarity| > 0.3 (baseline: 0.5)
+- Stratification: 4 sentiment quartiles
+
+RATIONALE:
+1. Extended window captures pre-announcement effects and next-day reaction
+2. Relaxed threshold increases sample size for better statistical power
+3. Stratification tests non-linear sentiment-return relationship
+
+HYPOTHESIS:
+- H0: News sentiment has no impact on abnormal returns
+- H1: Stronger sentiment → larger abnormal returns (monotonic relationship)
