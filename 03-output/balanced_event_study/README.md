@@ -1,6 +1,6 @@
 # Robust Event Study: 50-Stock Analysis with Balanced Filter
 
-**Analysis Date:** 2025-10-13 01:50:48
+**Analysis Date:** 2025-10-13 16:54:21
 
 **Methodology:** Fama-French 5-Factor Model with Balanced News Filter
 

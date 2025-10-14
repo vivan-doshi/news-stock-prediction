@@ -19,9 +19,9 @@ config = import_module('21_expanded_50_stock_config')
 
 EXPANDED_STOCKS = config.EXPANDED_STOCKS
 
-# Date range
-START_DATE = '2019-01-01'
-END_DATE = '2024-12-31'
+# Date range - Updated to 2021-2025 based on EODHD news data availability analysis
+START_DATE = '2021-01-01'
+END_DATE = '2025-07-31'
 DATA_DIR = Path('../01-data')
 DATA_DIR.mkdir(exist_ok=True)
 

@@ -30,9 +30,11 @@ STOCK_SECTOR_MAP = {
     'BA': {'sector': 'Industrials', 'etf': 'XLI'}
 }
 
-# Date range (5 years of data)
-START_DATE = '2019-01-01'
-END_DATE = '2024-12-31'
+# Date range - Updated to 2021-2025 based on EODHD news data availability analysis
+# Analysis showed EODHD has sparse news coverage pre-2021 (only 41 articles for AAPL in 2019)
+# but comprehensive coverage from 2021 onwards (7000+ articles/year)
+START_DATE = '2021-01-01'
+END_DATE = '2025-07-31'
 
 DATA_DIR = Path('../01-data')
 DATA_DIR.mkdir(exist_ok=True)

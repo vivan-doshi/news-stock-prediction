@@ -555,7 +555,7 @@ vaderSentiment>=3.3.2   # Sentiment analysis
 
 ⚠️ **Daily Data**: Cannot capture intraday reactions (first minutes/hours critical)
 ⚠️ **US Large-Cap Focus**: 50 stocks from major US indices (may not generalize to small-cap/international)
-⚠️ **Time Period**: 2019-2024 only (5 years, includes COVID period)
+⚠️ **Time Period**: 2021-2025 (4.6 years) - Updated to use EODHD's comprehensive news coverage period (see [DATA_RANGE_UPDATE.md](DATA_RANGE_UPDATE.md))
 ⚠️ **Event Identification**: Rule-based categorization may miss nuanced events
 ⚠️ **Sentiment Analysis**: VADER optimized for social media, not financial news
 ⚠️ **Same-Day Effects Only**: Multi-day event windows not explored

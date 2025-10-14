@@ -1,0 +1,129 @@
+================================================================================
+EVENT STUDY ANALYSIS - COMPREHENSIVE SUMMARY REPORT
+All 50 Stocks Across 10 Sectors
+================================================================================
+
+OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total Stocks Analyzed: 41
+Stocks with Significant News Impact: 21 (51.2%)
+Stocks with No Significant Impact: 20 (48.8%)
+
+Average Difference in AR: 0.0741%
+Median Difference in AR: 0.1031%
+Average |Cohen's d|: 0.158
+
+DIRECTION OF SIGNIFICANT EFFECTS
+--------------------------------------------------------------------------------
+Positive News Impact (News days > Non-news days): 15 stocks
+Negative News Impact (Non-news days > News days): 6 stocks
+
+TOP 10 STRONGEST POSITIVE NEWS IMPACTS
+--------------------------------------------------------------------------------
+META   (Communication       ): +0.967% (p=0.0000, d=0.563)
+NVDA   (Technology          ): +0.440% (p=0.0000, d=0.220)
+LLY    (Healthcare          ): +0.399% (p=0.0035, d=0.233)
+AMT    (Real Estate         ): +0.396% (p=0.0000, d=0.243)
+WMT    (Consumer Staples    ): +0.386% (p=0.0000, d=0.298)
+NEE    (Energy              ): +0.374% (p=0.0000, d=0.236)
+PG     (Consumer Staples    ): +0.347% (p=0.0000, d=0.286)
+MSFT   (Technology          ): +0.332% (p=0.0000, d=0.293)
+JPM    (Finance             ): +0.330% (p=0.0000, d=0.272)
+AMZN   (Consumer Discretionary): +0.258% (p=0.0009, d=0.177)
+
+TOP 10 STRONGEST NEGATIVE NEWS IMPACTS
+--------------------------------------------------------------------------------
+COP    (Energy              ): -0.465% (p=0.0002, d=-0.272)
+AAPL   (Technology          ): -0.429% (p=0.0000, d=-0.329)
+WFC    (Finance             ): -0.350% (p=0.0030, d=-0.222)
+CVX    (Energy              ): -0.331% (p=0.0064, d=-0.236)
+BAC    (Finance             ): -0.309% (p=0.0074, d=-0.221)
+HON    (Industrials         ): -0.202% (p=0.0330, d=-0.156)
+PFE    (Healthcare          ): 0.184% (p=0.0293, d=0.112)
+JNJ    (Healthcare          ): 0.185% (p=0.0045, d=0.150)
+BA     (Industrials         ): 0.243% (p=0.0449, d=0.108)
+GOOGL  (Communication       ): 0.249% (p=0.0006, d=0.179)
+
+SECTOR-LEVEL SUMMARY
+--------------------------------------------------------------------------------
+
+Communication:
+  Avg AR (News): 1.250%
+  Avg AR (Non-News): 1.030%
+  Avg Difference: 0.220%
+  Significant: 2/4 stocks (50.0%)
+
+Consumer Staples:
+  Avg AR (News): 1.240%
+  Avg AR (Non-News): 1.060%
+  Avg Difference: 0.180%
+  Significant: 2/5 stocks (40.0%)
+
+Healthcare:
+  Avg AR (News): 1.190%
+  Avg AR (Non-News): 1.060%
+  Avg Difference: 0.130%
+  Significant: 3/5 stocks (60.0%)
+
+Technology:
+  Avg AR (News): 1.080%
+  Avg AR (Non-News): 0.950%
+  Avg Difference: 0.130%
+  Significant: 3/5 stocks (60.0%)
+
+Consumer Discretionary:
+  Avg AR (News): 1.170%
+  Avg AR (Non-News): 1.110%
+  Avg Difference: 0.060%
+  Significant: 1/5 stocks (20.0%)
+
+Real Estate:
+  Avg AR (News): 1.250%
+  Avg AR (Non-News): 1.200%
+  Avg Difference: 0.040%
+  Significant: 1/5 stocks (20.0%)
+
+Industrials:
+  Avg AR (News): 1.080%
+  Avg AR (Non-News): 1.060%
+  Avg Difference: 0.020%
+  Significant: 2/2 stocks (100.0%)
+
+Finance:
+  Avg AR (News): 1.140%
+  Avg AR (Non-News): 1.200%
+  Avg Difference: -0.050%
+  Significant: 4/5 stocks (80.0%)
+
+Energy:
+  Avg AR (News): 1.170%
+  Avg AR (Non-News): 1.230%
+  Avg Difference: -0.070%
+  Significant: 3/5 stocks (60.0%)
+
+STOCKS WITH NO SIGNIFICANT NEWS IMPACT
+--------------------------------------------------------------------------------
+TSLA   (Consumer Discretionary): p=0.4742
+ORCL   (Technology          ): p=0.1442
+EQIX   (Real Estate         ): p=0.2671
+AVGO   (Technology          ): p=0.3654
+MCD    (Consumer Discretionary): p=0.2873
+XOM    (Energy              ): p=0.1870
+KO     (Consumer Staples    ): p=0.3851
+PEP    (Consumer Staples    ): p=0.4975
+COST   (Consumer Staples    ): p=0.7381
+UNH    (Healthcare          ): p=0.8632
+SLB    (Energy              ): p=0.9333
+CCI    (Real Estate         ): p=0.8859
+CMCSA  (Communication       ): p=0.6029
+PLD    (Real Estate         ): p=0.3361
+HD     (Consumer Discretionary): p=0.3270
+ABBV   (Healthcare          ): p=0.1464
+NKE    (Consumer Discretionary): p=0.2304
+MS     (Finance             ): p=0.1128
+SPG    (Real Estate         ): p=0.1120
+DIS    (Communication       ): p=0.1019
+
+================================================================================
+END OF REPORT
+================================================================================
