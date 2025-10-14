@@ -1,0 +1,61 @@
+================================================================================
+REAL ESTATE SECTOR - DETAILED ANALYSIS
+================================================================================
+
+SECTOR STATISTICS
+--------------------------------------------------------------------------------
+Total Stocks: 5
+Significant Results: 1 (20.0%)
+Non-Significant: 4 (80.0%)
+
+Average AR (News): 1.247%
+Average AR (Non-News): 1.205%
+Average Difference: 0.042%
+Average |Cohen's d|: 0.108
+
+STOCK-BY-STOCK RESULTS
+--------------------------------------------------------------------------------
+
+AMT: ✓
+  AR (News): 1.110%
+  AR (Non-News): 0.713%
+  Difference: 0.396%
+  P-Value: 0.0000
+  Cohen's d: 0.243
+  News Coverage: 27.6%
+
+EQIX: ✗
+  AR (News): 1.411%
+  AR (Non-News): 1.260%
+  Difference: 0.150%
+  P-Value: 0.2671
+  Cohen's d: 0.089
+  News Coverage: 31.3%
+
+CCI: ✗
+  AR (News): 1.285%
+  AR (Non-News): 1.305%
+  Difference: -0.020%
+  P-Value: 0.8859
+  Cohen's d: -0.011
+  News Coverage: 33.4%
+
+PLD: ✗
+  AR (News): 1.233%
+  AR (Non-News): 1.351%
+  Difference: -0.118%
+  P-Value: 0.3361
+  Cohen's d: -0.071
+  News Coverage: 42.3%
+
+SPG: ✗
+  AR (News): 1.196%
+  AR (Non-News): 1.394%
+  Difference: -0.197%
+  P-Value: 0.1120
+  Cohen's d: -0.127
+  News Coverage: 30.9%
+
+================================================================================
+END OF REPORT
+================================================================================

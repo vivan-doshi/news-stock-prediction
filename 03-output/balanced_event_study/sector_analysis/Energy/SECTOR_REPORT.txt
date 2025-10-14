@@ -1,0 +1,61 @@
+================================================================================
+ENERGY SECTOR - DETAILED ANALYSIS
+================================================================================
+
+SECTOR STATISTICS
+--------------------------------------------------------------------------------
+Total Stocks: 5
+Significant Results: 3 (60.0%)
+Non-Significant: 2 (40.0%)
+
+Average AR (News): 1.166%
+Average AR (Non-News): 1.233%
+Average Difference: -0.066%
+Average |Cohen's d|: 0.164
+
+STOCK-BY-STOCK RESULTS
+--------------------------------------------------------------------------------
+
+NEE: ✓
+  AR (News): 1.036%
+  AR (Non-News): 0.661%
+  Difference: 0.374%
+  P-Value: 0.0000
+  Cohen's d: 0.236
+  News Coverage: 44.4%
+
+XOM: ✗
+  AR (News): 0.912%
+  AR (Non-News): 0.808%
+  Difference: 0.103%
+  P-Value: 0.1870
+  Cohen's d: 0.069
+  News Coverage: 42.2%
+
+SLB: ✗
+  AR (News): 1.391%
+  AR (Non-News): 1.404%
+  Difference: -0.013%
+  P-Value: 0.9333
+  Cohen's d: -0.006
+  News Coverage: 44.5%
+
+CVX: ✓
+  AR (News): 1.320%
+  AR (Non-News): 1.651%
+  Difference: -0.331%
+  P-Value: 0.0064
+  Cohen's d: -0.236
+  News Coverage: 79.6%
+
+COP: ✓
+  AR (News): 1.173%
+  AR (Non-News): 1.638%
+  Difference: -0.465%
+  P-Value: 0.0002
+  Cohen's d: -0.272
+  News Coverage: 53.5%
+
+================================================================================
+END OF REPORT
+================================================================================

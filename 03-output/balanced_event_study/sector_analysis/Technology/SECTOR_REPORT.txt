@@ -1,0 +1,61 @@
+================================================================================
+TECHNOLOGY SECTOR - DETAILED ANALYSIS
+================================================================================
+
+SECTOR STATISTICS
+--------------------------------------------------------------------------------
+Total Stocks: 5
+Significant Results: 3 (60.0%)
+Non-Significant: 2 (40.0%)
+
+Average AR (News): 1.083%
+Average AR (Non-News): 0.952%
+Average Difference: 0.131%
+Average |Cohen's d|: 0.205
+
+STOCK-BY-STOCK RESULTS
+--------------------------------------------------------------------------------
+
+NVDA: ✓
+  AR (News): 1.034%
+  AR (Non-News): 0.594%
+  Difference: 0.440%
+  P-Value: 0.0000
+  Cohen's d: 0.220
+  News Coverage: 65.8%
+
+MSFT: ✓
+  AR (News): 0.986%
+  AR (Non-News): 0.654%
+  Difference: 0.332%
+  P-Value: 0.0000
+  Cohen's d: 0.293
+  News Coverage: 60.7%
+
+ORCL: ✗
+  AR (News): 1.369%
+  AR (Non-News): 1.191%
+  Difference: 0.179%
+  P-Value: 0.1442
+  Cohen's d: 0.112
+  News Coverage: 68.4%
+
+AVGO: ✗
+  AR (News): 1.374%
+  AR (Non-News): 1.240%
+  Difference: 0.134%
+  P-Value: 0.3654
+  Cohen's d: 0.068
+  News Coverage: 63.4%
+
+AAPL: ✓
+  AR (News): 0.652%
+  AR (Non-News): 1.081%
+  Difference: -0.429%
+  P-Value: 0.0000
+  Cohen's d: -0.329
+  News Coverage: 51.2%
+
+================================================================================
+END OF REPORT
+================================================================================

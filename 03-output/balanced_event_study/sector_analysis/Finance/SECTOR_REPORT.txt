@@ -1,0 +1,61 @@
+================================================================================
+FINANCE SECTOR - DETAILED ANALYSIS
+================================================================================
+
+SECTOR STATISTICS
+--------------------------------------------------------------------------------
+Total Stocks: 5
+Significant Results: 4 (80.0%)
+Non-Significant: 1 (20.0%)
+
+Average AR (News): 1.145%
+Average AR (Non-News): 1.196%
+Average Difference: -0.051%
+Average |Cohen's d|: 0.207
+
+STOCK-BY-STOCK RESULTS
+--------------------------------------------------------------------------------
+
+JPM: ✓
+  AR (News): 1.013%
+  AR (Non-News): 0.684%
+  Difference: 0.330%
+  P-Value: 0.0000
+  Cohen's d: 0.272
+  News Coverage: 52.1%
+
+GS: ✓
+  AR (News): 0.976%
+  AR (Non-News): 0.719%
+  Difference: 0.256%
+  P-Value: 0.0002
+  Cohen's d: 0.194
+  News Coverage: 53.8%
+
+MS: ✗
+  AR (News): 1.267%
+  AR (Non-News): 1.451%
+  Difference: -0.184%
+  P-Value: 0.1128
+  Cohen's d: -0.122
+  News Coverage: 66.6%
+
+BAC: ✓
+  AR (News): 1.247%
+  AR (Non-News): 1.556%
+  Difference: -0.309%
+  P-Value: 0.0074
+  Cohen's d: -0.221
+  News Coverage: 75.0%
+
+WFC: ✓
+  AR (News): 1.221%
+  AR (Non-News): 1.572%
+  Difference: -0.350%
+  P-Value: 0.0030
+  Cohen's d: -0.222
+  News Coverage: 63.1%
+
+================================================================================
+END OF REPORT
+================================================================================

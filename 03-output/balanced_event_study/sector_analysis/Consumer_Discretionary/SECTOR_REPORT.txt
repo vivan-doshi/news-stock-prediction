@@ -1,0 +1,61 @@
+================================================================================
+CONSUMER DISCRETIONARY SECTOR - DETAILED ANALYSIS
+================================================================================
+
+SECTOR STATISTICS
+--------------------------------------------------------------------------------
+Total Stocks: 5
+Significant Results: 1 (20.0%)
+Non-Significant: 4 (80.0%)
+
+Average AR (News): 1.171%
+Average AR (Non-News): 1.114%
+Average Difference: 0.057%
+Average |Cohen's d|: 0.096
+
+STOCK-BY-STOCK RESULTS
+--------------------------------------------------------------------------------
+
+AMZN: ✓
+  AR (News): 0.952%
+  AR (Non-News): 0.694%
+  Difference: 0.258%
+  P-Value: 0.0009
+  Cohen's d: 0.177
+  News Coverage: 64.9%
+
+TSLA: ✗
+  AR (News): 1.029%
+  AR (Non-News): 0.830%
+  Difference: 0.199%
+  P-Value: 0.4742
+  Cohen's d: 0.053
+  News Coverage: 80.8%
+
+MCD: ✗
+  AR (News): 1.367%
+  AR (Non-News): 1.263%
+  Difference: 0.104%
+  P-Value: 0.2873
+  Cohen's d: 0.082
+  News Coverage: 65.8%
+
+HD: ✗
+  AR (News): 1.270%
+  AR (Non-News): 1.390%
+  Difference: -0.119%
+  P-Value: 0.3270
+  Cohen's d: -0.079
+  News Coverage: 69.5%
+
+NKE: ✗
+  AR (News): 1.236%
+  AR (Non-News): 1.394%
+  Difference: -0.158%
+  P-Value: 0.2304
+  Cohen's d: -0.089
+  News Coverage: 60.6%
+
+================================================================================
+END OF REPORT
+================================================================================

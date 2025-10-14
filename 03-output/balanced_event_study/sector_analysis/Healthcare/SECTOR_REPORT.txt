@@ -1,0 +1,61 @@
+================================================================================
+HEALTHCARE SECTOR - DETAILED ANALYSIS
+================================================================================
+
+SECTOR STATISTICS
+--------------------------------------------------------------------------------
+Total Stocks: 5
+Significant Results: 3 (60.0%)
+Non-Significant: 2 (40.0%)
+
+Average AR (News): 1.190%
+Average AR (Non-News): 1.063%
+Average Difference: 0.127%
+Average |Cohen's d|: 0.124
+
+STOCK-BY-STOCK RESULTS
+--------------------------------------------------------------------------------
+
+LLY: ✓
+  AR (News): 1.432%
+  AR (Non-News): 1.034%
+  Difference: 0.399%
+  P-Value: 0.0035
+  Cohen's d: 0.233
+  News Coverage: 70.3%
+
+JNJ: ✓
+  AR (News): 0.957%
+  AR (Non-News): 0.772%
+  Difference: 0.185%
+  P-Value: 0.0045
+  Cohen's d: 0.150
+  News Coverage: 41.0%
+
+PFE: ✓
+  AR (News): 0.912%
+  AR (Non-News): 0.728%
+  Difference: 0.184%
+  P-Value: 0.0293
+  Cohen's d: 0.112
+  News Coverage: 58.3%
+
+UNH: ✗
+  AR (News): 1.336%
+  AR (Non-News): 1.315%
+  Difference: 0.021%
+  P-Value: 0.8632
+  Cohen's d: 0.013
+  News Coverage: 64.0%
+
+ABBV: ✗
+  AR (News): 1.312%
+  AR (Non-News): 1.465%
+  Difference: -0.153%
+  P-Value: 0.1464
+  Cohen's d: -0.110
+  News Coverage: 65.4%
+
+================================================================================
+END OF REPORT
+================================================================================

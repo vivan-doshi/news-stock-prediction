@@ -1,0 +1,53 @@
+================================================================================
+COMMUNICATION SECTOR - DETAILED ANALYSIS
+================================================================================
+
+SECTOR STATISTICS
+--------------------------------------------------------------------------------
+Total Stocks: 4
+Significant Results: 2 (50.0%)
+Non-Significant: 2 (50.0%)
+
+Average AR (News): 1.252%
+Average AR (Non-News): 1.031%
+Average Difference: 0.221%
+Average |Cohen's d|: 0.238
+
+STOCK-BY-STOCK RESULTS
+--------------------------------------------------------------------------------
+
+META: ✓
+  AR (News): 1.478%
+  AR (Non-News): 0.511%
+  Difference: 0.967%
+  P-Value: 0.0000
+  Cohen's d: 0.563
+  News Coverage: 35.7%
+
+GOOGL: ✓
+  AR (News): 0.954%
+  AR (Non-News): 0.705%
+  Difference: 0.249%
+  P-Value: 0.0006
+  Cohen's d: 0.179
+  News Coverage: 61.6%
+
+CMCSA: ✗
+  AR (News): 1.292%
+  AR (Non-News): 1.355%
+  Difference: -0.063%
+  P-Value: 0.6029
+  Cohen's d: -0.041
+  News Coverage: 69.1%
+
+DIS: ✗
+  AR (News): 1.284%
+  AR (Non-News): 1.554%
+  Difference: -0.269%
+  P-Value: 0.1019
+  Cohen's d: -0.169
+  News Coverage: 86.7%
+
+================================================================================
+END OF REPORT
+================================================================================

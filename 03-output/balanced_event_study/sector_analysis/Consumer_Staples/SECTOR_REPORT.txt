@@ -1,0 +1,61 @@
+================================================================================
+CONSUMER STAPLES SECTOR - DETAILED ANALYSIS
+================================================================================
+
+SECTOR STATISTICS
+--------------------------------------------------------------------------------
+Total Stocks: 5
+Significant Results: 2 (40.0%)
+Non-Significant: 3 (60.0%)
+
+Average AR (News): 1.239%
+Average AR (Non-News): 1.056%
+Average Difference: 0.183%
+Average |Cohen's d|: 0.146
+
+STOCK-BY-STOCK RESULTS
+--------------------------------------------------------------------------------
+
+WMT: ✓
+  AR (News): 1.050%
+  AR (Non-News): 0.663%
+  Difference: 0.386%
+  P-Value: 0.0000
+  Cohen's d: 0.298
+  News Coverage: 55.2%
+
+PG: ✓
+  AR (News): 1.076%
+  AR (Non-News): 0.729%
+  Difference: 0.347%
+  P-Value: 0.0000
+  Cohen's d: 0.286
+  News Coverage: 34.2%
+
+KO: ✗
+  AR (News): 1.365%
+  AR (Non-News): 1.284%
+  Difference: 0.081%
+  P-Value: 0.3851
+  Cohen's d: 0.069
+  News Coverage: 67.9%
+
+PEP: ✗
+  AR (News): 1.348%
+  AR (Non-News): 1.287%
+  Difference: 0.061%
+  P-Value: 0.4975
+  Cohen's d: 0.050
+  News Coverage: 60.6%
+
+COST: ✗
+  AR (News): 1.354%
+  AR (Non-News): 1.314%
+  Difference: 0.040%
+  P-Value: 0.7381
+  Cohen's d: 0.029
+  News Coverage: 76.8%
+
+================================================================================
+END OF REPORT
+================================================================================
